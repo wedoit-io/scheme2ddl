@@ -7,10 +7,10 @@
 
 
 
-###Benefits
+### Benefits
 **scheme2ddl** give ability to filter undesirable information, separate DDL in different files, pretty format output.
 
-###How to start with minimal configuration
+### How to start with minimal configuration
 Java must be installed on your computer.
 
 For exporting oracle scheme you must provide
@@ -63,7 +63,7 @@ On Unix platform you can run `scheme2ddl.jar` as executable file:
     ./scheme2ddl.jar 
 
 
-###How it is work inside? 
+### How it is work inside? 
 
  1.  First, get list of all user_object to export
  
@@ -76,9 +76,12 @@ On Unix platform you can run `scheme2ddl.jar` as executable file:
 *scheme2ddl* build on top of [spring-batch](http://static.springsource.org/spring-batch/) framework. 
 
 
-###See it in action in cloud 
+### See it in action in cloud 
 You can see it in action as [Jenkins build](http://jenkins-ddl2svn.rhcloud.com/job/amazon-rds-oracle-schema2ddl/lastSuccessfulBuild). Look at console output and build artifacts.
 
 > Jenkins hosting provided by Red Hat's OpenShift.
 > Oracle hosting provided by Amazon's RDS.
 
+### Links
+* https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+* https://bintray.com/qwazer/maven/scheme2ddl/2.4.1#files/com/googlecode/scheme2ddl
